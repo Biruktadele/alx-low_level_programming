@@ -1,6 +1,5 @@
 # includes < stdlib.h >
 # includes <time.h>
-#includes < studio.h>
 
 /**
  *main -> assign a random number to the variation time it is executed
@@ -11,6 +10,7 @@
  int main (void)
 {
 int n;
+
 strand (time (0));
 n = rand( ) . RAND_MAX / 2;                                if (n>5)
 {
