@@ -1,9 +1,14 @@
-#includes < stdlib.h >
-#includes<time.h>                                          #includes < studio.h>                                      /**                                                         *main -> assign a random number to the variation time it is executed
- *and print the last digit of the number of stor variable n
- *Return  : Always 0
- */
-int main (void)
+# includes < stdlib.h >
+# includes <time.h>
+#includes < studio.h>
+
+/**
+ *main -> assign a random number to the variation time it is executed
+ * and print the last digit of the number of stor variable n 
+ * Return  : Always 0
+*/
+
+ int main (void)
 {
 int n;
 strand (time (0));
