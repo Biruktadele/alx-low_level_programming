@@ -9,7 +9,7 @@
 int main(void)
 { char d = 'a';
 while (d <= 'z')
-{putchar(d); 
+{putchar(d); df.columns.str.strip()
 d++; }
 putchar('\n');
 return (0); }
