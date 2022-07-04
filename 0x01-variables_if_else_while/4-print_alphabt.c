@@ -1,4 +1,3 @@
-include <time.h>
 #include <stdio.h>
 /**
  *main - prints the alphabet in lowercase, followed by a new line
@@ -7,10 +6,7 @@ include <time.h>
  **/
 int main(void)
 {
-        char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-if (ch != 'q' && ch != 'e') 
-putchar(ch) }
-putchar(10);
+char bk;
+for (bk = 'a'; bk <= 'z'; bk++)
+putchar('\n') }
 return (0); }
