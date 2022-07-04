@@ -1,14 +1,22 @@
-#include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main - prints all single digit numbers of base 10 starting from 0
- * followed by a new line
+ * main - Prints all the numbers of base 16 in lowercase.
  *
- * Return: Always 0
- **/
+ * Return: Always 0.
+ */
 int main(void)
-{ int ch;
-for (ch = 48; ch <= 57; ch++)
-{ putchar(ch); }
-putchar(10);
-return (0); }
+{
+	int num;
+	char letter;
+
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
+}
