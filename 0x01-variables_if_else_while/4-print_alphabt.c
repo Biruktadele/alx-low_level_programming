@@ -8,5 +8,11 @@ int main(void)
 {
 char bk;
 for (bk = 'a'; bk <= 'z'; bk++)
-putchar('\n') }
-return (0); }
+}
+if (bk == 'a'; || bk == 'e') 
+{
+continue
+}
+putchar(bk)
+return (0);
+}
