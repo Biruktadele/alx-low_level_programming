@@ -1,15 +1,25 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
- * main - Task 1 print the last digit of the number stored in the variable n
+ * main - Prints all possible combinations of single-digit numbers.
  *
- * Return: 0
- * */
+ * Return: Always 0.
+ */
 int main(void)
-{ int ch;
-for (ch = 48; ch <= 57; ch++)
-{ putchar(ch);
-if (ch != 57)putchar(ch); }
-putchar(10);
-return (0); }
+{
+	int num;
+
+	for (num = 0; num <= 9; num++)
+	{
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
+		
+		putchar(',');
+		putchar(' ');
+	}
+
+	putchar('\n');
+
+	return (0);
+} 
