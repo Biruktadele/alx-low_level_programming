@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
 */
-void positive_or_negative(int i)
+void main(int i)
 {
 /* my if statement */
 if (i == 0)
