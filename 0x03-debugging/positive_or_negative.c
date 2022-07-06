@@ -6,9 +6,9 @@
  *
  * Return: Always 0 (Success)
 */
-void main(int i)
+int main(void)
 {
-/* my if statement */
+int i;
 if (i == 0)
 {
 printf("%d is zero\n", i);
